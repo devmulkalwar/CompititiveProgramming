@@ -7,7 +7,7 @@ int main() {
    cin>>str;
    
    for(int i=0; i<str.length();i++){
-       if(str[i]>=65 && str[i]<=90){
+       if(int (str[i])>=65 && int(str[i])<=90){
            continue;
        }
        else{
